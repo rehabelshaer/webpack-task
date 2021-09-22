@@ -1,0 +1,14 @@
+body{
+ background-image: url("images/photo.jpg");   
+ background-size: cover;
+}
+.main{
+    color: rgb(19, 217, 231);
+    text-align: center;
+    margin: 100px auto;
+    font-size: 60px;
+    transition: transform .5s;
+}
+.main:hover{
+  transform: translateY(-5px);  
+}
