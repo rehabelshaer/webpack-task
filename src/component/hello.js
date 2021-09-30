@@ -1,8 +1,10 @@
-import "./hello.css";
-const HelloWorld=( elem ,html) =>{
-        const ele = document.createElement(elem);
-        ele.innerHTML= html;
-        ele.classList.add("main");
-        document.body.appendChild(ele);
-}    
-export default HelloWorld;
+import React from "react"
+import "./hello.css"
+
+function App() {
+    return (<div>
+        <h2>hello to React App</h2>
+    </div>)
+}
+
+export default App

@@ -13,7 +13,16 @@ module.exports={
             {
                 test: /\.css$/,
                 use: ["style-loader" ,"css-loader"],
-            }
+
+            },
+            {
+                test: /\.(js|jsx)$/,
+                exclude: /nodeModules/,
+                use: {
+                  loader: 'babel-loader'
+                }
+              },
+           
         ]
     },
     plugins: [new HtmlWebpackPlugin()],

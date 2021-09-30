@@ -2,13 +2,13 @@ body{
  background-image: url("images/photo.jpg");   
  background-size: cover;
 }
-.main{
+h2{
     color: rgb(19, 217, 231);
     text-align: center;
     margin: 100px auto;
     font-size: 60px;
     transition: transform .5s;
 }
-.main:hover{
+h2:hover{
   transform: translateY(-5px);  
 }
