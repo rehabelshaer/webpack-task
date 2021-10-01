@@ -30,12 +30,12 @@ module.exports={
           template: path.resolve(__dirname, "index.html"),
         }),
       ],
-    // plugins: [new HtmlWebpackPlugin({filename : "index.html"})],
-    // devServer: {
-    //     static: {
-    //       directory: path.join(__dirname, 'dist'),
-    //     },
-    //     index:"index.html",
-    //     port: 5200,
-    //   },
+
+    //  devServer: {
+    //      static: {
+    //        directory: path.join(__dirname, 'dist'),
+    //      },
+    //      watchContentBase: true,
+    //      port: 5200,
+    //    },
 };
