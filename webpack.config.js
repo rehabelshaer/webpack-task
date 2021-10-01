@@ -25,7 +25,12 @@ module.exports={
            
         ]
     },
-    plugins: [new HtmlWebpackPlugin({filename : "index.html"})],
+    plugins: [
+        new HtmlWebpackPlugin({
+          template: path.resolve(__dirname, "index.html"),
+        }),
+      ],
+    // plugins: [new HtmlWebpackPlugin({filename : "index.html"})],
     // devServer: {
     //     static: {
     //       directory: path.join(__dirname, 'dist'),
